@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <link href="{{ asset('css/estilo.css') }}" rel="stylesheet"/>
+        <script src=" {{ asset('js/script.js')}} "></script>
+    </head>
+    <body>
+        <h1 id='titulo'">Hello {{ user_first_name }}!</h1>
+        <p>You have {{ notifications|length }} new notifications.</p>
+        <button onClick="pulsar()">Click</button>
+    </body>
+</html>
