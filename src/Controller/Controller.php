@@ -19,4 +19,7 @@ class Controller extends AbstractController
             'notifications' => $userNotifications,
         ]);
     }
+    public function plantilla() {
+        return $this->render('start/plantilla.html.twig');
+    }
 }

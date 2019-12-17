@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link href="{{ asset('css/plantilla.css') }}" rel="stylesheet"/>
+        <script src=" {{ asset('js/script.js')}} "></script>
+    </head>
+    <body>
+        <div id="cabeza">
+            <ul class="ul_naveg">
+                <li class="li_naveg" id="logo">ESCOLAPInversiones</li>
+                <li class="li_naveg"><button class="bot_menu">Acciones</button></li>
+                <li class="li_naveg"><button class="bot_menu">Registrar</button></li>
+                <li class="li_naveg"><button class="bot_menu">Entrar</button></li>
+            </ul>
+        </div>
+        <div id="foot">
+            <p>Autor Ivan Savchyn</p>
+            <div id="fotos">
+                <a href="https://www.instagram.com/_tine_es/?hl=es" target="_blank"><img class="foto" src="{{ asset('images/instagram.png')}}" style="width: 10%;"></a>
+                <a href="https://www.linkedin.com/in/ivan-savchyn-3582b2188/" target="_blank"></a><img class="foto" src=" {{asset('images/linkedin.jpg')}}" style="width: 20%;"></a>
+                <a href="https://es-es.facebook.com/" target="_blank"></a><img class="foto" src="{{ asset('images/facebook.png')}}" style="width: 10%;"></a>
+            </div>
+        </div>
+    </body>
+</html>

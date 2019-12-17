@@ -2,3 +2,6 @@ app_lucky_number:
     path: /lucky/number
     controller: App\Controller\Controller::number
 
+app_bolsa:
+    path: /practica/plantilla
+    controller: App\Controller\Controller:plantilla
